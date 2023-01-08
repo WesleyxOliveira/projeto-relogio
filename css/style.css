@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #23F0C7;
+    --cor2: #EF767A;
+    --cor3: #7D7ABC;
+    --cor4: #6457A6;
+    --cor5: #6457A6;
+
+    --font1: 'Monoton', cursive;
+    --font2: 'Roboto Mono', monospace;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 80%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.034);
+    box-shadow: 6px 6px 12px #00000071;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.complete-data {
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+.clock-container {
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 6vw;
+    text-shadow: 6px 6px 12px #00000057;
+}
+
+span.hour {
+    color: var(--cor4);
+}
+
+span.minutes {
+    color: var(--cor2);
+}
+
+span.seconds {
+    color: var(--cor1);
+}
